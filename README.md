@@ -1,2 +1,2 @@
 # SwiftReducer
-初步模仿React的Reducer
+学习ReSwift,写了一个简化版的Swift版本的Reducer
