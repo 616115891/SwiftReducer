@@ -15,7 +15,6 @@
 		3D3D798D24EE1CBB0070A3B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3D798B24EE1CBB0070A3B5 /* LaunchScreen.storyboard */; };
 		3D3D79A324EE1DE40070A3B5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D799524EE1DE40070A3B5 /* AppState.swift */; };
 		3D3D79A424EE1DE40070A3B5 /* HLJSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D799724EE1DE40070A3B5 /* HLJSubscription.swift */; };
-		3D3D79A524EE1DE40070A3B5 /* HLJDispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D799824EE1DE40070A3B5 /* HLJDispatchingStoreType.swift */; };
 		3D3D79A624EE1DE40070A3B5 /* HLJState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D799924EE1DE40070A3B5 /* HLJState.swift */; };
 		3D3D79A724EE1DE40070A3B5 /* HLJStoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D799A24EE1DE40070A3B5 /* HLJStoreSubscriber.swift */; };
 		3D3D79A824EE1DE40070A3B5 /* HLJStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D799B24EE1DE40070A3B5 /* HLJStore.swift */; };
@@ -37,7 +36,6 @@
 		3D3D798E24EE1CBB0070A3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D3D799524EE1DE40070A3B5 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		3D3D799724EE1DE40070A3B5 /* HLJSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLJSubscription.swift; sourceTree = "<group>"; };
-		3D3D799824EE1DE40070A3B5 /* HLJDispatchingStoreType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLJDispatchingStoreType.swift; sourceTree = "<group>"; };
 		3D3D799924EE1DE40070A3B5 /* HLJState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLJState.swift; sourceTree = "<group>"; };
 		3D3D799A24EE1DE40070A3B5 /* HLJStoreSubscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLJStoreSubscriber.swift; sourceTree = "<group>"; };
 		3D3D799B24EE1DE40070A3B5 /* HLJStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLJStore.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				3D3D799724EE1DE40070A3B5 /* HLJSubscription.swift */,
-				3D3D799824EE1DE40070A3B5 /* HLJDispatchingStoreType.swift */,
 				3D3D799924EE1DE40070A3B5 /* HLJState.swift */,
 				3D3D799A24EE1DE40070A3B5 /* HLJStoreSubscriber.swift */,
 				3D3D799B24EE1DE40070A3B5 /* HLJStore.swift */,
@@ -204,7 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D3D798524EE1CBA0070A3B5 /* ViewController.swift in Sources */,
-				3D3D79A524EE1DE40070A3B5 /* HLJDispatchingStoreType.swift in Sources */,
 				3D3D79A724EE1DE40070A3B5 /* HLJStoreSubscriber.swift in Sources */,
 				3D3D798124EE1CBA0070A3B5 /* AppDelegate.swift in Sources */,
 				3D3D798324EE1CBA0070A3B5 /* SceneDelegate.swift in Sources */,

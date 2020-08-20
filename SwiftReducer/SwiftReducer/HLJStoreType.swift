@@ -8,11 +8,9 @@
 
 import UIKit
 
-public protocol HLJStoreType: HLJDispatchingStoreType {
+public protocol HLJStoreType {
     associatedtype State: HLJStateType
-    
     var state:State! { get }
     func subscribe<S: HLJStoreSubscriber>(_ subscriber: S) where S.HLJStoreSubscriberStateType == State
     func unsubscribe(_ subscriber: HLJAnyStoreSubscriber)
-    
 }

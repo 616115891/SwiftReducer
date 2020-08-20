@@ -10,7 +10,6 @@ import UIKit
 
 class HLJSubscriptionBox<State>: Hashable {
     
-    
     weak var subscriber: HLJAnyStoreSubscriber?
     private let objectIdentifier: ObjectIdentifier
     
